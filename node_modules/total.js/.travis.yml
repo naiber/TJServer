@@ -1,0 +1,10 @@
+language: node_js
+cache:
+  - npm
+node_js:
+  - "6.11"
+install:
+  - npm install
+script:
+  - cd test
+  - bash run.sh

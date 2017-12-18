@@ -1,0 +1,17 @@
+{
+  "name": "totalServer",
+  "version": "1.0.0",
+  "description": "back-end of PlanningCalendar",
+  "main": "debug.js",
+  "dependencies": {
+    "json-parser": "^1.1.5",
+    "nosql": "^6.1.0",
+    "total.js": "^2.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike",
+  "license": "ISC"
+}

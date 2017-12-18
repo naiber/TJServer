@@ -1,0 +1,50 @@
+{
+  "Users" : [{
+                    "name" : "Report",
+                    "user" : "rep",
+                    "password" : "admin",
+                    "odata" : false,
+                    "entries" : [{
+                        "name" : "Report",
+                        "appointment" : [{
+                                "idOrder" : "1",
+                  							"order" : "order 1",
+                  							"supplier" : "fornitore 1",
+                  							"hours" : "numero ore",
+                  							"actions" : "icone azioni"
+                          }]
+                    },
+                    {
+                       "name" : "Admin",
+                       "appointment" : []
+                    }]
+                  },
+                  {
+                    "name" : "Admin",
+                    "user" : "adm",
+                    "password" : "admin",
+                    "odata" : true,
+                    "entries" : [{
+                        "name" : "Report",
+                        "appointment" : []
+                    },
+                    {
+                       "name" : "Admin",
+                       "appointment" : []
+                    }]
+                  },
+                  {
+                    "name" : "Mike",
+                    "user" : "mike",
+                    "password" : "admin",
+                    "odata" : true,
+                    "entries" : [{
+                        "name" : "Report",
+                        "appointment" : []
+                    },
+                    {
+                       "name" : "Admin",
+                       "appointment" : []
+                    }]
+                  }]
+}

@@ -1,0 +1,18 @@
+NEWSCHEMA('record').make(function(schema){
+  schema.define('idOrder','String');
+  schema.define('order','String');
+  schema.define('supplier','String');
+  schema.define('hours','String');
+  schema.define('actions1','String');
+  schema.define('actions2','String');
+  schema.define('idmenu','String');
+  schema.define('iduser','String');
+
+  schema.setDefault(function(propertyName,isntPreparing,schemaName){
+    if(propertyName == 'actions1'){
+      return 'sap-icon://edit';
+    }else if (propertyName == 'actions2') {
+      return 'sap-icon://delete';
+    }
+  })
+})
