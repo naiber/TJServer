@@ -13,4 +13,4 @@ options.ip = '0.0.0.0';
 // options.inspector = 9229;
 // options.watch = ['private'];
 
-require('total.js/index')(options);
+require('total.js/debug')(options);
